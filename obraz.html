@@ -1,0 +1,51 @@
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_galka()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+Teoria:<br>
+a)Uwagi na temat JS<br>
+-kiedy powstała<br>
+<br>
+W 1995 roku, na mocy porozumienia z firmą Sun<br> Microsystems, w zamian za włączenie do przeglądarki<br> Netscape obsługi technologii Java, język otrzymał<br> oficjalną nazwę JavaScript. W grudniu tego samego roku<br> został zaimplementowany w najnowszej wówczas wersji <br>Navigatora i rozpoczął triumfalny pochód przez Sieć<br>.
+<br>
+-dlaczego jest to język skryptowy<br>
+JavaScript jest przede wszystkim językiem skryptowym – to znaczy interpretowanym.<br>
+ Nie musi zostać skompilowany do kodu maszynowego, aby można było zobaczyć efekty jego działania.<br> Wystarczy nam do tego przeglądarka internetowa, która ten język obsługuje – czyli w zasadzie każda z<br> liczących się na rynku aplikacji.<br>
+<br>
+-gdzie jest wykonywany JS (klient lub serwer)<br>
+serwer<br>
+<br>
+-dlaczego jest to bezpieczne narzędzie<br>
+<br>
+Ze względów bezpieczeństwa JavaScript ma znacznie<br>
+ ograniczone uprawnienia dostępu do zasobów komputera, przy<br> użyciu którego przeglądana jest dana strona, a<br> wszelkie odwołania do funkcji i obiektów wykonywane są w<br> trakcie wykonywania programu.<br>
+ <br>
+-czy jest to język obiektowy , jeśli tak to dlaczego.<br>
+<br>
+Kody<br>
+<textarea name="nazwa" cols="50" rows="2" readonly><input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')"></textarea><br>
+wytłumaczenie: funkcja towrzy przycisk który po kliknięciu otwieraq nowe okno<br>
+<br>
+<textarea name="nazwa" cols="50" rows="2" readonly>window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");</textarea><br>
+wytłumaczenie: funkcja która precyzuje wugląd wyświetlonego okna<br>
+<br>
+toolbar=no      ukrywa przyciski katalogów<br>
+directories=no  ukrywa przyciski katalogów<br>
+menubar=no  	ukrywa menu przeglądarki<br>
+height=280 	 	ustawia wysokość okna na 280<br>
+width=160   	ustawia szerokość okna na 160<br>
+top=200     	ustawia położenie okna względem góry ekranu na 200<br>
+left=200    	ustawia położenie okna względem lewej strony ekranu na 200<br>
+<br>
+<textarea name="nazwa" cols="20" rows="1" readonly>window.close()</textarea><br>
+wytłumaczenie: funkcja która zamyka okno<br>
+<img src="R.gif" />
+<input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+</body>
+</html>
